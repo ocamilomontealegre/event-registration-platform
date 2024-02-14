@@ -15,7 +15,7 @@ export const registerForEvent = (req, res) => {
 
   try {
     const result = registerAssistant(Number(eventId), userId);
-    logInfo(`Method: ${req.method} |`, `Path: ${req.path} |`, );
+    logInfo(`Method: ${req.method} |`, `Path: ${req.path} |`, JSON.stringify(result) );
 
     response(res, { type: 'success', name: 'eventData', statusCode: 200 }, result );
   } catch (error) {
