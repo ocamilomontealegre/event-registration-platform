@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+:root {
+  box-sizing: border-box;
+  font-family: Poppins, arial, helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: gray;
+}
+
+a {
+  text-decoration: none;
+}
