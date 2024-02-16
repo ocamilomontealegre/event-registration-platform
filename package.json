@@ -7,6 +7,9 @@
     "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "start:backend": "cd back_end && npm run dev",
     "start:frontend": "cd front_end && npm run dev",
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd back_end && npm install",
+    "install:frontend": "cd front_end && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@ocamilomontealegre",

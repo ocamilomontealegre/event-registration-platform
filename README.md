@@ -2,6 +2,21 @@
 
 ## Scripts
 
+### `install:all`
+
+- Command: `npm install & npm run install:backend && npm run install:frontend`
+- Description: This script installs all dependencies for both backend and frontend.
+
+### `install:backend`
+
+- Command: `cd back_end && npm install`
+- Description: This script installs backend dependencies.
+
+### `install:frontend`
+
+- Command: `cd front_end && npm install`
+- Description: This script installs frontend dependencies.
+
 ### `start`
 
 - Command: `concurrently "npm run start:backend" "npm run start:frontend"`
