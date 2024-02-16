@@ -1,5 +1,7 @@
+// Defining the Message component
 export const Message = ({ text }) => {
-  return(
+  // Rendering the message
+  return (
     <p className="erp-message">{text}</p>
-  )
+  );
 };
