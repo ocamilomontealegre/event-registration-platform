@@ -15,7 +15,6 @@
   "author": "@ocamilomontealegre",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^8.2.2",
-    "nodemon": "^3.0.3"
+    "concurrently": "^8.2.2"
   }
 }
